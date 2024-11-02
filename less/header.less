@@ -1,0 +1,42 @@
+header{
+color: @primary-text-color;
+color: @secondary-text-color;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+    .logo{
+        font-size: 2.3em;
+        color: var(@primary-text-color);
+        cursor: pointer;
+    }
+
+
+        .logo span{
+            color: var(@secondary-text-color);
+        }
+
+            .navegar a{
+                font-size: 1.2em;
+                color: var(@primary-text-color);
+                text-decoration: none;
+                margin-right: 40px;
+                font-weight: 600;
+                transition: .3s;
+
+            }
+                .navegar a:hover{
+                    color: var(@secondary-text-color);
+                }
+            
+        
+    
+}
